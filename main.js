@@ -27,7 +27,7 @@
         if (response.ok){
           let data = await response.json();
           console.log(data);
-          this.temperature =`${ Math.round(data.main.temp)} C°`;
+          this.temperature =`Temperature : ${ Math.round(data.main.temp)} C°`;
           this.returnCity = this.city.toUpperCase();
           this.weatherImg = `./img/${data.weather[0].main}.svg`;
           this.humidity = `Humidity ${data.main.humidity}%`,
