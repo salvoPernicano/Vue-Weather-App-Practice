@@ -4,7 +4,8 @@
     data() {
       return {
         apiUrl : "https://api.openweathermap.org/data/2.5/weather?",
-        apiKey : "17133b4ffe4294e48a925169f403cdcd",
+        // generate your api Key and copy-paste underneath 
+        apiKey : null,
         temperature : null,
         city : null,
         humidity : null,
