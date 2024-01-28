@@ -1,0 +1,31 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.weather-picture img{
+    height: 50px;
+    width: 50px;
+}
+
+#searchBar::placeholder{
+    color: grey;
+    font-weight: bold;
+}
+body{
+background-image: url("https://images.unsplash.com/photo-1493246507139-91e8fad9978e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    font-size: 3.5rem;
+    color: white;
+    text-transform: uppercase;
+}
+.container{
+    border-radius: 20px;
+    border: 2px solid white;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
